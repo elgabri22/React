@@ -1,0 +1,51 @@
+/* Estilo principal del selector de color */
+.color-selector {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    width: 300px;
+    margin: 20px auto;
+  }
+  
+  /* Estilo para el título */
+  .color-selector__title {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Estilo para las opciones de colores */
+  .color-selector__options {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 10px;
+  }
+  
+  /* Estilo para cada opción de color */
+  .color-selector__option {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    border: 2px solid transparent;
+  }
+  
+  /* Estilo para la opción seleccionada */
+  .color-selector__option--selected {
+    border-color: #000;
+    transform: scale(1.1);
+  }
+  
+  /* Estilo para el mensaje que muestra el color seleccionado */
+  .color-selector__selected-color {
+    margin-top: 20px;
+    font-size: 1rem;
+    color: #555;
+  }
+  

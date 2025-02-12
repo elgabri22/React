@@ -1,0 +1,44 @@
+/* Estilos para el tema claro */
+.light-theme {
+    background-color: white;
+    color: black;
+  }
+  
+  /* Estilos para el tema oscuro */
+  .dark-theme {
+    background-color: black;
+    color: white;
+  }
+  
+  /* Estilos comunes para el contenedor de la aplicación */
+  .theme-container {
+    padding: 20px;
+    text-align: center;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  /* Estilos para el botón de alternancia */
+  .toggle-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .toggle-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .toggle-button:focus {
+    outline: none;
+  }
+  
+  /* Estilos para el contenido */
+  .content {
+    margin-top: 20px;
+  }
+  

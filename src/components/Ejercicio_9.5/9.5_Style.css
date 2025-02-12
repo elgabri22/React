@@ -1,0 +1,45 @@
+/* Contenedor principal del item del acordeón */
+.accordion-item {
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    overflow: hidden;
+  }
+  
+  /* Estilo del título del acordeón */
+  .accordion-header {
+    background-color: #007bff;
+    color: white;
+    padding: 15px;
+    cursor: pointer;
+    font-size: 1.2em;
+    border: none;
+    text-align: center;
+    transition: background-color 0.3s;
+  }
+  
+  .accordion-header:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Estilo del cuerpo del acordeón */
+  .accordion-body {
+    padding: 15px;
+    background-color: #f1f1f1;
+    font-size: 1em;
+    color: #333;
+    transition: max-height 0.3s ease-in-out;
+    overflow: hidden;
+  }
+  
+  /* Estilo para el contenido dentro del cuerpo */
+  .accordion-content {
+    max-height: 500px; /* Ajusta según sea necesario */
+    transition: max-height 0.3s ease-in-out;
+  }
+  
+  .accordion-body:not(:empty) {
+    padding-top: 10px;
+  }
+  

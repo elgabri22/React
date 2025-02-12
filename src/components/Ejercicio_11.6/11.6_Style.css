@@ -1,0 +1,54 @@
+/* Contenedor principal del carrusel */
+.carousel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin: 20px auto;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #f9f9f9;
+  }
+  
+  /* Contenedor de la imagen */
+  .carousel__imageContainer {
+    width: 100%;
+    height: 400px; /* Ajustar altura según tus necesidades */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  /* Estilo de la imagen */
+  .carousel__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Hace que la imagen cubra el área sin deformarse */
+  }
+  
+  /* Contenedor de los controles (botones) */
+  .carousel__controls {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+  }
+  
+  /* Estilos de los botones */
+  .carousel__button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .carousel__button:hover {
+    background-color: #0056b3;
+  }
+  

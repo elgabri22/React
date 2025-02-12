@@ -1,0 +1,74 @@
+/* Estilos generales */
+.comment-system {
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  .add-comment {
+    margin-bottom: 20px;
+  }
+  
+  .add-comment input,
+  .add-comment textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .add-comment button {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .add-comment button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Estilos de los comentarios */
+  .comment {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .comment__content {
+    font-weight: bold;
+  }
+  
+  .comment__responses {
+    margin-top: 10px;
+  }
+  
+  .comment__add-response {
+    margin-top: 10px;
+  }
+  
+  .comment__add-response input {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+  }
+  
+  .comment__add-response button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .comment__add-response button:hover {
+    background-color: #0056b3;
+  }
+  

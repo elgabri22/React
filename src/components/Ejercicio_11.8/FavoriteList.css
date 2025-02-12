@@ -1,0 +1,53 @@
+/* Estilo principal de la lista de favoritos */
+.favorite-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    width: 300px;
+    margin: 20px auto;
+  }
+  
+  /* Estilo para el título */
+  .favorite-list__title {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Estilo para la lista de elementos */
+  .favorite-list__items {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+  }
+  
+  /* Estilo para cada elemento de la lista */
+  .favorite-list__item {
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  /* Estilo para el elemento cuando está seleccionado */
+  .favorite-list__item--selected {
+    background-color: #4caf50;
+    color: white;
+    transform: scale(1.05);
+  }
+  
+  /* Estilo para el mensaje de elemento favorito seleccionado */
+  .favorite-list__selected-item {
+    margin-top: 20px;
+    font-size: 1rem;
+    color: #555;
+  }
+  

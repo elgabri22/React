@@ -1,0 +1,59 @@
+/* Estilo para el contenedor del contador */
+.counter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    width: 200px;
+    margin: 0 auto;
+  }
+  
+  /* Estilo para el título del contador */
+  .counter__title {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Estilo para el contenedor de los botones */
+  .counter__buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  /* Estilo común para los botones */
+  .counter__button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    width: 45%; /* Para que los botones ocupen el mismo tamaño */
+  }
+  
+  /* Estilo para el botón de incrementar */
+  .counter__button--increment {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .counter__button--increment:hover {
+    background-color: #218838;
+  }
+  
+  /* Estilo para el botón de decrementar */
+  .counter__button--decrement {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .counter__button--decrement:hover {
+    background-color: #c82333;
+  }
+  

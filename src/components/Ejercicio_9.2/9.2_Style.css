@@ -1,0 +1,75 @@
+/* Contenedor principal de la lista */
+.user-list {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  /* Estilos del título */
+  .user-list h1 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Contenedor de las tarjetas de usuario */
+  .user-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  /* Cada tarjeta de usuario tendrá un espacio adecuado */
+  .user-card {
+    display: flex;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 20px 0;
+    max-width: 500px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex: 1 1 300px; /* Para que las tarjetas ocupen un 300px mínimo pero se adapten */
+  }
+  
+  /* Estilo de la foto del usuario */
+  .user-photo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  
+  /* Detalles del usuario */
+  .user-details {
+    flex: 1;
+  }
+  
+  /* Nombre del usuario */
+  .user-name {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* Fecha de nacimiento */
+  .user-birthdate {
+    font-size: 1em;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  /* Descripción del usuario */
+  .user-description {
+    font-size: 1em;
+    color: #333;
+    margin-bottom: 10px;
+    line-height: 1.5;
+  }
+  
+  /* Empresa actual */
+  .user-company {
+    font-size: 1em;
+    color: #007bff;
+  }
+  
