@@ -1,29 +1,19 @@
 {
   "pizzas": [
     {
-      "id": "3",
-      "precio": 12.99,
-      "nombre": "Hawaiana"
+      "id": "154d",
+      "precio": 12,
+      "nombre": "Margarita"
     },
     {
-      "id": "4",
-      "precio": 11.99,
-      "nombre": "Vegetariana"
+      "id": "c678",
+      "precio": 12,
+      "nombre": "Margarita"
     },
     {
-      "id": "5",
-      "precio": 13.99,
-      "nombre": "Cuatro Quesos"
-    },
-    {
-      "id": "6178",
-      "precio": 30,
-      "nombre": "Actualizado"
-    },
-    {
-      "id": "6d7b",
-      "precio": 40,
-      "nombre": "Otra"
+      "id": "4a87",
+      "precio": 12,
+      "nombre": "Margarita"
     }
   ]
 }

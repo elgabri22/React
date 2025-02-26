@@ -1,13 +1,15 @@
+import { useState } from 'react';
 import './App.css';
-import Counter from './components/Ejercicio_11.1/11.1_Component';
 import FormularioNewPizza from './components/Proyecto/FormularioNewPizza';
 import ListaPizzas from './components/Proyecto/ListaPizzas';
+import Login from './components/Proyecto/Login';
 
 const App = () => {
   return (
     <>
-      <FormularioNewPizza></FormularioNewPizza>
-      <ListaPizzas></ListaPizzas>
+      <Login></Login>
+      <FormularioNewPizza appear={false}></FormularioNewPizza>
+      <ListaPizzas appear={false}></ListaPizzas>
     </>
   );
 };
